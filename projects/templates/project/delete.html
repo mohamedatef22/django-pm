@@ -5,7 +5,7 @@
 <form method="post">
     {% csrf_token %}
     <p>
-        {% trans 'Are you sure you want to delete'%} {{ project.title }}?
+        {% trans 'Are you sure you want to delete the project?'%} {{ project.title }}?
     </p>
     <input class="btn btn-danger" type="submit" value="{% trans 'Delete' %}" />
 </form>
