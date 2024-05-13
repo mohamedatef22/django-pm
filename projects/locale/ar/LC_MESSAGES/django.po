@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-12 17:41+0300\n"
+"POT-Creation-Date: 2024-05-12 17:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,21 +47,13 @@ msgstr "معلق"
 msgid "Canceled"
 msgstr "ملغي"
 
-#: .\projects\models.py:38
+#: .\projects\models.py:38 .\projects\models.py:39
 msgid "Project"
-msgstr "مشروع"
+msgstr "المشروع"
 
-#: .\projects\models.py:39
-msgid "Projects"
-msgstr "مشاريع"
-
-#: .\projects\models.py:51
+#: .\projects\models.py:51 .\projects\models.py:52
 msgid "Task"
-msgstr "مهمة"
-
-#: .\projects\models.py:52
-msgid "Tasks"
-msgstr "مهمات"
+msgstr "المهمة"
 
 #: .\projects\templates\partials\footer.html:5
 msgid "(c) 2024 Hsoub. All rights reserved. "
